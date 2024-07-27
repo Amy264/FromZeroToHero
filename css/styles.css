@@ -13,7 +13,11 @@ header {
 }
 
 .logo {
-    height: 50px;
+    width: 100px; /* Adjust to fit your design */
+    height: 100px; /* Same as width for a perfect circle */
+    border-radius: 50%;
+    object-fit: cover; /* Optional: ensures the image covers the area without distortion */
+    border: 2px solid #000; /* Optional: adds a border around the logo */
 }
 
 nav ul {
@@ -74,3 +78,4 @@ button {
 button:hover {
     background-color: #555;
 }
+
