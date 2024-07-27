@@ -5,6 +5,11 @@ body {
     background-color: #f4f4f4;
 }
 
+.index-page {
+    background-color: white;
+    color: black; /* Optional: Set the default text color to ensure readability */
+}
+
 header {
     background-color: #333;
     color: #fff;
@@ -17,7 +22,6 @@ header {
     height: 100px; /* Same as width for a perfect circle */
     border-radius: 50%;
     object-fit: cover; /* Optional: ensures the image covers the area without distortion */
-    border: 2px solid #000; /* Optional: adds a border around the logo */
 }
 
 main {
@@ -31,10 +35,7 @@ main {
 .featured-image {
     width: 100%; /* Adjust the width to your needs */
     height: auto; /* Maintains the aspect ratio */
-    max-width: 600px; /* Optional: limits the maximum width */
-    border: 2px solid #000; /* Optional: adds a border around the image */
-    border-radius: 10px; /* Optional: rounds the corners of the image */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adds a shadow effect */
+    max-width: 1000px; /* Optional: limits the maximum width */
 }
 
 nav ul {
