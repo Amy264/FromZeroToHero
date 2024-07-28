@@ -40,10 +40,15 @@ main {
     max-width: 1000px; /* Optional: limits the maximum width */
 }
 
+.course_list {
+    text-align: left;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
 }
+
 
 nav ul li {
     display: inline;
@@ -64,7 +69,6 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 1em 0;
     position: fixed;
     bottom: 0;
     width: 100%;
